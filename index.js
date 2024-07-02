@@ -5,4 +5,8 @@ app.get('/', (req,res)=>{
     res.send('helo word')
 })
 
+app.get('/oi', (req,res)=>{
+    res.send('Ola Mundo')
+})
+
 app.listen(3000)
